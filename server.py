@@ -10,14 +10,14 @@ from flask import Flask,request
 app = Flask(__name__)
 CORS(app)
 
-access_token = '1077737654110760960-ndfzGh72jq0KxdhWoY4TNkVCS4IvQR'
-access_secret = 'dRrHteuBNAB9fGfge8vwwZ4bAy1cmQXsJCTufeWiyHZG9'
-consumer_key= 'qt7TGoQVKMFZZnpaFy4bkR4tX'
-consumer_secret = 'hMxjL3aUw3jcTxHdnr1wWpoYXtUOXu4G12ZCs0bLVbJiRyQUBA'
+access_token = ''
+access_secret = ''
+consumer_key= ''
+consumer_secret = ''
 
-username = "apikey"
-password = "iH8893SgeuzDpXY6WSkj4D6Gx1BzbVLUWdxjKI0QRYQx"
-url = "https://gateway.watsonplatform.net/tone-analyzer/api/v3/tone?version=2017-09-21"
+username = ""
+password = ""
+url = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
